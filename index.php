@@ -45,4 +45,6 @@
 			<p>Phone: (800) 424-3232</p>
 		</footer>
 	</body>
-</html>
+</html>        
+        <?php get_sidebar(); ?>
+  </div>
