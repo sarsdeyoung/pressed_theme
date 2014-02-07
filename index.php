@@ -18,6 +18,9 @@
 			</nav>
 		</header>
 		<section>
+<?php get_header(); ?>
+<div class="clear">
+		<section class="main">
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/hero.jpg" />
             
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post() ; ?>

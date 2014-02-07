@@ -53,6 +53,22 @@ body {
 	margin-right:auto;
 }
 
+.main {
+	width: 79%;
+	float: left;	
+}
+
+.sidebar {
+	width: 20%;
+	float: right;
+	padding-left:8px;
+}
+
+#sidebar > ul > div:nth-child(2) > div {
+    font-size: .8em;
+    padding-top: 20px;
+}
+
 section > section {
 	width: 60%;
 	max-width: 27.8125em;
@@ -82,4 +98,15 @@ footer h1 {
 
 footer p {
 	line-height: .5;
+}
+
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
 }
